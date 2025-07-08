@@ -7,6 +7,10 @@
 }
 
 /* Shred Color */
+.second_bg {
+    background: #FFF8F3;
+}
+
 .primari_color {
     color: #FD6E0A;
 }
@@ -25,8 +29,24 @@
     border: none;
 }
 
+.section_title {
+    color: #181818;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.section_desvription {
+    color: #757575;
+    font-size: 18px;
+    text-align: center;
+}
+
+.text-contant {
+    text-align: center;
+}
+
 /* Header */
-header {
+.header {
     background-image: url('/images/developer.png'), url('/images/header_bg.png');
     background-repeat: no-repeat;
     background-position: top left, bottom right;
@@ -85,4 +105,49 @@ nav {
 
 .banner_img img {
     width: 580px;
+}
+
+/* Main Style */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+main section {
+    margin: 130px 0;
+}
+
+/* About Section */
+.about {
+    border-radius: 10px;
+    padding: 130px 155px;
+    text-align: center;
+    margin-top: 130px;
+}
+
+.item-description {
+    font-weight: 700;
+}
+
+.about-items {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.about-item p {
+    margin-bottom: -10px;
+}
+
+/* Skills Section */
+
+.skill {
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.06);
+}
+
+.skill-container {
+    display: flex;
+    gap: 24px;
 }
